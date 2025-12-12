@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Download, Filter, Search } from 'lucide-react';
+import { Download, Search } from 'lucide-react';
 import { mockAlerts } from '@/data/mockData';
-import { Alert, AlertPriority, RuleType, AlertStatus } from '@/types';
+import { AlertPriority, RuleType, AlertStatus } from '@/types';
 import PriorityBadge from '@/components/PriorityBadge';
 import { format } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';

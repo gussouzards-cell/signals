@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { AlertTriangle, Clock, TrendingUp, Filter, Search } from 'lucide-react';
+import { AlertTriangle, Clock, TrendingUp, Search } from 'lucide-react';
 import { mockAlerts, mockKPI } from '@/data/mockData';
 import { Alert, AlertPriority, RuleType } from '@/types';
 import PriorityBadge from '@/components/PriorityBadge';
